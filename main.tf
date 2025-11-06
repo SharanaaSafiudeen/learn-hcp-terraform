@@ -29,7 +29,7 @@ data "aws_ami" "amazon_linux" {
 }
 # Create a security group
 resource "aws_security_group" "example" {
-  name        = "example-sg"
+  name        = "example-sg-2"
   description = "Allow SSH and HTTP inbound traffic"
 
   ingress {
